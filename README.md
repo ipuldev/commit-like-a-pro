@@ -66,3 +66,13 @@ Semantic commit messages follow a specific format: `<type>: <subject>`. Here are
 
 Here's an example of a detailed commit message:
 
+```
+feat: add password reset functionality
+
+- Add a new endpoint for password reset requests
+- Implement email notifications for password reset
+- Add frontend form for password reset
+- Update user schema to include password reset token
+
+This change allows users to reset their passwords via email, improving account security.
+```
